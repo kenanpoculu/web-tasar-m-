@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Club/Event Homepage</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#009688",
+                        "primary-accent": "#f9a825",
+                        "background-light": "#e0f2f1",
+                        "background-dark": "#004d40",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#003731] dark:text-slate-50">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-10 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="px-4 md:px-10 lg:px-20 mx-auto">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-teal-200 dark:border-teal-800 px-4 md:px-10 py-3">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-6">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Yönetim Bilişim Sistemleri Topluluğu</h2>
+</div>
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal text-teal-800 dark:text-teal-100 hover:text-primary dark:hover:text-primary" href="#">About</a>
+<a class="text-sm font-medium leading-normal text-teal-800 dark:text-teal-100 hover:text-primary dark:hover:text-primary" href="#">Events</a>
+<a class="text-sm font-medium leading-normal text-teal-800 dark:text-teal-100 hover:text-primary dark:hover:text-primary" href="#">Contact</a>
+</nav>
+<button class="hidden md:flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Buy Tickets</span>
+</button>
+<button class="md:hidden flex items-center justify-center size-10 rounded-lg border border-teal-200 dark:border-teal-800">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<div class="relative">
+<div class="min-h-[600px] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat" data-alt="A crowd of people at a concert with purple and blue lights." style='background-image: linear-gradient(rgba(0, 77, 64, 0.7) 0%, rgba(0, 55, 49, 0.9) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKPSUzAeAnW4QkMQnilnrxvzql9osHsg01QRz6ypyncj6dFF7zx0fnY9I_i7aZ1a9OHwwqMS0tT_gohAc98-w8RgCk5seK3mMXEkbGD2ViKFTkbV0PhueyLOyWK7YTfP1uykdBKgDaX5p4Gm9RWcH1MWmkQpabkIRsOnE_G15jaxyhIQw3KTkdya0Wp8oujNj11AVPO3EebunVR4B6rkrw71xsirNMw0I509DjNG3QveJiItzqmTgdVP0nTT8I32iDwIBJJdcgZLw");'>
+<div class="text-center px-4">
+<h1 class="text-white text-4xl md:text-6xl font-black leading-tight tracking-tighter">The Ultimate Nightlife Experience</h1>
+<p class="text-teal-100 text-lg md:text-xl mt-4 max-w-3xl mx-auto">Join us for an unforgettable night of music, dance, and celebration. The Yönetim Bilişim Sistemleri Topluluğu is back and bigger than ever!</p>
+</div>
+<div class="mt-12 w-full max-w-2xl px-4">
+<div class="flex gap-4">
+<div class="flex grow basis-0 flex-col items-stretch gap-4">
+<div class="flex h-20 md:h-24 grow items-center justify-center rounded-lg px-3 bg-white/10 backdrop-blur-sm">
+<p class="text-white text-4xl md:text-5xl font-bold">18</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-teal-200 text-sm font-normal leading-normal">Days</p></div>
+</div>
+<div class="flex grow basis-0 flex-col items-stretch gap-4">
+<div class="flex h-20 md:h-24 grow items-center justify-center rounded-lg px-3 bg-white/10 backdrop-blur-sm">
+<p class="text-white text-4xl md:text-5xl font-bold">23</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-teal-200 text-sm font-normal leading-normal">Hours</p></div>
+</div>
+<div class="flex grow basis-0 flex-col items-stretch gap-4">
+<div class="flex h-20 md:h-24 grow items-center justify-center rounded-lg px-3 bg-white/10 backdrop-blur-sm">
+<p class="text-white text-4xl md:text-5xl font-bold">45</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-teal-200 text-sm font-normal leading-normal">Minutes</p></div>
+</div>
+<div class="flex grow basis-0 flex-col items-stretch gap-4">
+<div class="flex h-20 md:h-24 grow items-center justify-center rounded-lg px-3 bg-white/10 backdrop-blur-sm">
+<p class="text-white text-4xl md:text-5xl font-bold">12</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-teal-200 text-sm font-normal leading-normal">Seconds</p></div>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-4 mt-12">
+<button class="flex min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary-accent text-black text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary-accent/90 transition-colors">
+<span class="truncate">Buy Tickets Now</span>
+</button>
+<button class="flex min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-white/20 text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-white/30 transition-colors">
+<span class="truncate">Learn More</span>
+</button>
+</div>
+</div>
+</div>
+<section class="py-16 md:py-24 bg-white dark:bg-teal-900/50">
+<div class="container mx-auto px-4 md:px-10">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight text-teal-900 dark:text-white">About The Gala</h2>
+<p class="mt-4 text-lg text-teal-700 dark:text-teal-200">Experience the most exciting event of the year. We bring together top artists, speakers, and enthusiasts for a day of inspiration, networking, and fun. Our mission is to create a vibrant community where people can connect, learn, and grow.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+<div class="text-center p-6 bg-background-light dark:bg-background-dark rounded-xl shadow-lg">
+<div class="flex items-center justify-center size-12 mx-auto bg-primary-accent/20 text-primary-accent rounded-full">
+<span class="material-symbols-outlined text-3xl">music_note</span>
+</div>
+<h3 class="mt-4 text-xl font-bold text-teal-900 dark:text-white">Live Music</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">World-renowned DJs and live bands playing all night long.</p>
+</div>
+<div class="text-center p-6 bg-background-light dark:bg-background-dark rounded-xl shadow-lg">
+<div class="flex items-center justify-center size-12 mx-auto bg-primary-accent/20 text-primary-accent rounded-full">
+<span class="material-symbols-outlined text-3xl">groups</span>
+</div>
+<h3 class="mt-4 text-xl font-bold text-teal-900 dark:text-white">Guest Speakers</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">Inspiring talks from industry leaders and creative minds.</p>
+</div>
+<div class="text-center p-6 bg-background-light dark:bg-background-dark rounded-xl shadow-lg">
+<div class="flex items-center justify-center size-12 mx-auto bg-primary-accent/20 text-primary-accent rounded-full">
+<span class="material-symbols-outlined text-3xl">wine_bar</span>
+</div>
+<h3 class="mt-4 text-xl font-bold text-teal-900 dark:text-white">Gourmet Experience</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">Exquisite food and signature cocktails to delight your senses.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark py-16 md:py-24">
+<div class="container mx-auto px-4 md:px-10">
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight text-center text-teal-900 dark:text-white">Upcoming Events</h2>
+<div class="mt-12 flex flex-col md:flex-row gap-8 justify-center">
+<div class="bg-white dark:bg-teal-900/50 p-6 rounded-lg w-full md:w-1/3">
+<p class="text-sm font-semibold text-primary">October 26, 2024</p>
+<h3 class="mt-2 text-xl font-bold text-teal-900 dark:text-white">Pre-Gala Mixer</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">An exclusive networking event for early ticket holders.</p>
+<p class="mt-4 text-sm text-teal-600 dark:text-teal-400">7:00 PM - 10:00 PM</p>
+</div>
+<div class="bg-white dark:bg-teal-900/50 p-6 rounded-lg w-full md:w-1/3 border-2 border-primary-accent">
+<p class="text-sm font-semibold text-primary">November 15, 2024</p>
+<h3 class="mt-2 text-xl font-bold text-teal-900 dark:text-white">Yönetim Bilişim Sistemleri Topluluğu Gala</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">The main event. A night you won't forget.</p>
+<p class="mt-4 text-sm text-teal-600 dark:text-teal-400">8:00 PM - LATE</p>
+</div>
+<div class="bg-white dark:bg-teal-900/50 p-6 rounded-lg w-full md:w-1/3">
+<p class="text-sm font-semibold text-primary">November 16, 2024</p>
+<h3 class="mt-2 text-xl font-bold text-teal-900 dark:text-white">Afterparty Brunch</h3>
+<p class="mt-2 text-teal-700 dark:text-teal-300">Relax and recount the night's stories over brunch.</p>
+<p class="mt-4 text-sm text-teal-600 dark:text-teal-400">11:00 AM - 2:00 PM</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-teal-900 dark:bg-black text-teal-200">
+<div class="container mx-auto px-4 md:px-10 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div>
+<h3 class="text-lg font-bold text-white">Yönetim Bilişim Sistemleri Topluluğu</h3>
+<p class="mt-2 text-sm text-teal-300">The ultimate nightlife experience.</p>
+<div class="flex gap-4 mt-4">
+<a class="text-teal-300 hover:text-white" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46,6C21.73,6.33 20.94,6.55 20.11,6.65C20.93,6.15 21.56,5.39 21.85,4.47C21.08,4.93 20.24,5.26 19.34,5.43C18.61,4.66 17.57,4.14 16.41,4.14C14.2,4.14 12.4,5.94 12.4,8.15C12.4,8.45 12.43,8.75 12.5,9.04C9.07,8.87 6.07,7.22 3.97,4.72C3.62,5.31 3.42,6.02 3.42,6.77C3.42,8.14 4.1,9.35 5.12,10.05C4.46,10.03 3.83,9.85 3.28,9.57V9.63C3.28,11.63 4.7,13.28 6.6,13.68C6.27,13.77 5.92,13.82 5.56,13.82C5.3,13.82 5.04,13.8 4.79,13.75C5.32,15.4 6.84,16.58 8.66,16.62C7.25,17.76 5.47,18.45 3.55,18.45C3.23,18.45 2.91,18.43 2.6,18.38C4.45,19.64 6.65,20.36 9,20.36C16.4,20.36 20.25,14.18 20.25,8.69C20.25,8.48 20.25,8.27 20.24,8.06C21.03,7.5 21.8,6.8 22.46,6Z"></path></svg></a>
+<a class="text-teal-300 hover:text-white" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12,2.04C6.5,2.04 2,6.53 2,12C2,17.47 6.5,21.96 12,21.96C17.5,21.96 22,17.47 22,12C22,6.53 17.5,2.04 12,2.04M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,8.04C9.8,8.04 8,9.83 8,12C8,14.17 9.8,15.96 12,15.96C14.2,15.96 16,14.17 16,12C16,9.83 14.2,8.04 12,8.04M12,14C10.9,14 10,13.1 10,12C10,10.9 10.9,10 12,10C13.1,10 14,10.9 14,12C14,13.1 13.1,14 12,14M16.95,6.05C16.55,6.05 16.23,6.38 16.23,6.77C16.23,7.17 16.55,7.5 16.95,7.5C17.35,7.5 17.67,7.17 17.67,6.77C17.67,6.38 17.35,6.05 16.95,6.05Z"></path></svg></a>
+<a class="text-teal-300 hover:text-white" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19,3H5C3.89,3 3,3.89 3,5V19C3,20.11 3.89,21 5,21H19C20.11,21 21,20.11 21,19V5C21,3.89 20.11,3 19,3M19,5V19H5V5H19M7.95,12.04L7.96,16.5H10.15V12.04C10.15,11.23 10.29,10.45 11.21,10.45C12.28,10.45 12.28,11.39 12.28,12.16V16.5H14.47V11.59C14.47,9.75 13.79,8.5 12.07,8.5C10.93,8.5 10.35,9.1 10.1,9.66H10.15V8.69H7.95V12.04M7,6.5C6.17,6.5 5.5,7.17 5.5,8C5.5,8.83 6.17,9.5 7,9.5C7.83,9.5 8.5,8.83 8.5,8C8.5,7.17 7.83,6.5 7,6.5Z"></path></svg></a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-bold text-white">Quick Links</h3>
+<ul class="mt-2 space-y-2">
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">About Us</a></li>
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">Events</a></li>
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">Contact</a></li>
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold text-white">Legal</h3>
+<ul class="mt-2 space-y-2">
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">Privacy Policy</a></li>
+<li><a class="text-sm text-teal-300 hover:text-white" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold text-white">Contact Us</h3>
+<p class="mt-2 text-sm text-teal-300">info@starlightgala.com</p>
+<p class="mt-1 text-sm text-teal-300">123 Sparkle Ave, Stardust City</p>
+<div class="mt-4 rounded-lg overflow-hidden h-24 bg-cover bg-center" data-location="Stardust City" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDilSSarxTwYJPIvLotc3c__vuPPJvUeVlaQ4NoaVWElC7lw1-Arkpl5vRepg32Z4eFsDTa3GjQw6a648tQLw2mq-MipEgRuUVbpUtUG33We5vMAr-9jk6swrot-Tepnlpa5XfFfBvGtgW4zUASKn8xBbRSybwxC56pyRM2IBD6L5hT4OJMrjmKMqOWhgzqvW81qfQYiDS3w0HdEJQy9_6hbO-ff6e_-r_ou0cCy-OJCozhqBHm4vPJpEEKfvWeDhijcyF2hC3x6AM')"></div>
+</div>
+</div>
+<div class="mt-12 border-t border-teal-800 pt-8 text-center text-sm text-teal-400">
+<p>© 2024 Yönetim Bilişim Sistemleri Topluluğu. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
